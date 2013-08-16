@@ -1,0 +1,19 @@
+.space {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin: -0.118em 0.0em;
+    border-radius: 50%;
+    border: 0.07em solid black;
+}
+.color {
+    margin: 1em;
+    height: 1em;
+    width: 1em;
+}
+.red { background: red}
+.blue { background: blue}
+.row {
+    width: 11em;
+    height: 0.25em;
+}
