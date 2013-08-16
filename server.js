@@ -54,7 +54,7 @@ function Game(socket1, socket2) {
             socket1.emit("status", "not your turn");
             return false;
         }
-        if(data && data.x && data.y) {
+        if(data && data.x >= 0 && data.y >= 0) {
             var x = data.x, y = data.y;
             if(x >= 0 && y >= 0 && x < size && y < size) {
                 doMove(x, y);
